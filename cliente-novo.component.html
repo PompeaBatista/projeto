@@ -1,0 +1,31 @@
+<<h2>Clientes</h2>
+
+<div>
+    <form (ngSubmit)='salvar'>
+<label>Nome:
+    <input #nomeCliente [(ngModel)]='cliente.nome' name='nome'/>
+</label><br>
+<label>Apelido:
+    <input #apelidoCliente [(ngModel)]='cliente.apelido' name='apelido'/>
+</label><br>
+<label>Nome Social:
+    <input #nomeSocialCliente [(ngModel)]='cliente.nomeSocial' name='nomeSocial'/>
+</label><br>
+<label>Sexo:
+    <input #sexoCliente [(ngModel)]='cliente.sexo' name='sexo'/>
+</label><br>
+<label>Data Nascimento:
+    <input #dataNascimentoCliente [(ngModel)]='cliente.dataNascimento' name='dataNascimento'/>
+</label><br>
+<label>CPF:
+    <input #cpfCliente [(ngModel)]='cliente.cpf' name='cpf'/>
+</label><br>
+<label>E-mail:
+    <input #emailCliente [(ngModel)]='cliente.email' name='email'/>
+</label><br>
+<label>Telefone:
+    <input #telefoneCliente [(ngModel)]='cliente.telefone' name='telefone'/>
+</label><br>
+<button type="submit">Salvar</button>
+</form>
+</div>
